@@ -21,7 +21,7 @@
 public class Solution {
     public ListNode detectCycle(ListNode head) {
         
-        //Broute force approch
+        //Broute force approch o(n)--> T.C
         ArrayList<ListNode> visited = new ArrayList<>();
         while(head != null && !visited.contains(head))
         {
@@ -32,7 +32,6 @@ public class Solution {
         
         
         /* Optimimal Approach O(1) T.c */
-        /*
         ListNode slow, fast;
         slow = fast = head;
         while(fast != null && fast.next != null)
@@ -54,6 +53,6 @@ public class Solution {
             }
             return slow;
         }
-        */
+        
     }
 }
