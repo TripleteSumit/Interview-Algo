@@ -1,5 +1,11 @@
 import java.util.Arrays;
 
+/*
+ * The intiuation behind this logic is mentioned below:
+ * 
+ * basically  to optimize the broute force approch we implement the binary search approch.
+ */
+
 public class Solution {
     public int minEatingSpeed(int[] piles, int h) {
         // Broute force approch
