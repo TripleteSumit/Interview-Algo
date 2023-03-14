@@ -20,7 +20,7 @@ public class TreeNode {
 
 public class Solution {
     public boolean isSymmentric(TreeNode root) {
-        return check(root, root);
+        return check(root, root)
     }
 
     private boolean check(TreeNode left, TreeNode right) {
